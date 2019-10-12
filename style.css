@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+}
+.location,.Temprature{
+    display: flex;
+    height: 30vh;
+    width:50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.Temprature{
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Temprature-temprature{
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+}
+span{
+    margin:10px;
+    font-size: 30px;
+}
+.Temprature-temprature h3{
+    font-size:40px;
+}
+.location-location{
+    font-size: 40px;
+}
+header{
+    font-size:60px;
+}
